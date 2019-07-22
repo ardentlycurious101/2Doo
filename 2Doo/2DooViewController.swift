@@ -10,7 +10,7 @@ import UIKit
 
 class _2DooViewController: UITableViewController {
 
-    let itemArray = ["Brian Dionigi", "Nabila Nizam", "Jose Cruz"]
+    var itemArray = ["Brian Dionigi", "Nabila Nizam", "Jose Cruz"]
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -37,5 +37,33 @@ class _2DooViewController: UITableViewController {
 
         tableView.deselectRow(at: indexPath, animated: true)
     }
-}
+    
+    // MARK: Add new items
+    
+    @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
+        
+        var textField = UITextField()
+        
+        // TODO: Create UIAlert dialog pop-up
+        let alert = UIAlertController(title: "Add New 2Doo item", message: "", preferredStyle: .alert)
+        
+        // TODO: Create UIAlertAction
+        let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
+            // What will happen once the user clicks the Add Item button on our UIAlert
+            self.itemArray.append(textField.text!)
+            self.tableView.reloadData()
+        }
+        
+        // TODO: Append textField onto array
+        alert.addTextField { (alertTextField) in
+            alertTextField.placeholder = "xyz"
+            textField = alertTextField
+        }
+        
+        alert.addAction(action)
 
+        present(alert, animated: true, completion: nil)
+        
+    }
+    
+}

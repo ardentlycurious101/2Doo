@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="CQv-lI-K8f" id="bus-G5-IAo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="2Doo" id="Acp-4B-l7D"/>
+                    <navigationItem key="navigationItem" title="2Doo" id="Acp-4B-l7D">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="4Zw-a3-zcG">
+                            <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="CQv-lI-K8f" id="x5d-nt-jbX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nnJ-94-VVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,7 +53,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hye-Vm-LsW">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.91459787439999995" green="0.65950684410000004" blue="0.24613587880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.3489385545" green="0.68161964419999999" blue="0.72157776360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
