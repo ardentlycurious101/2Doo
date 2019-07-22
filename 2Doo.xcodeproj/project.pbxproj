@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA1390E622E647FA00080392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1390E522E647FA00080392 /* AppDelegate.swift */; };
-		EA1390E822E647FA00080392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1390E722E647FA00080392 /* ViewController.swift */; };
+		EA1390E822E647FA00080392 /* 2DooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1390E722E647FA00080392 /* 2DooViewController.swift */; };
 		EA1390EB22E647FA00080392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1390E922E647FA00080392 /* Main.storyboard */; };
 		EA1390ED22E647FB00080392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1390EC22E647FB00080392 /* Assets.xcassets */; };
 		EA1390F022E647FB00080392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1390EE22E647FB00080392 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		EA1390E222E647FA00080392 /* 2Doo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Doo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1390E522E647FA00080392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA1390E722E647FA00080392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA1390E722E647FA00080392 /* 2DooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2DooViewController.swift; sourceTree = "<group>"; };
 		EA1390EA22E647FA00080392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA1390EC22E647FB00080392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1390EF22E647FB00080392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				EA1390E522E647FA00080392 /* AppDelegate.swift */,
-				EA1390E722E647FA00080392 /* ViewController.swift */,
+				EA1390E722E647FA00080392 /* 2DooViewController.swift */,
 				EA1390E922E647FA00080392 /* Main.storyboard */,
 				EA1390EC22E647FB00080392 /* Assets.xcassets */,
 				EA1390EE22E647FB00080392 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1390E822E647FA00080392 /* ViewController.swift in Sources */,
+				EA1390E822E647FA00080392 /* 2DooViewController.swift in Sources */,
 				EA1390E622E647FA00080392 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
