@@ -11,8 +11,13 @@ import UIKit
 class _2DooViewController: UITableViewController {
 
     var itemArray = ["Brian Dionigi", "Nabila Nizam", "Jose Cruz"]
+    
+    let defaults = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        itemArray = defaults.array(forKey: "2DooListArray") as! [String]
     }
 
     // MARK: TableView DataSource Methods
@@ -51,10 +56,10 @@ class _2DooViewController: UITableViewController {
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
             // What will happen once the user clicks the Add Item button on our UIAlert
             self.itemArray.append(textField.text!)
+            self.defaults.set(self.itemArray, forKey: "2DooListArray")
             self.tableView.reloadData()
         }
         
-        // TODO: Append textField onto array
         alert.addTextField { (alertTextField) in
             alertTextField.placeholder = "xyz"
             textField = alertTextField
