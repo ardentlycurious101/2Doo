@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		EA1390E622E647FA00080392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1390E522E647FA00080392 /* AppDelegate.swift */; };
-		EA1390E822E647FA00080392 /* 2DooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1390E722E647FA00080392 /* 2DooViewController.swift */; };
+		EA1390E822E647FA00080392 /* _2DooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1390E722E647FA00080392 /* _2DooViewController.swift */; };
 		EA1390EB22E647FA00080392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1390E922E647FA00080392 /* Main.storyboard */; };
 		EA1390ED22E647FB00080392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1390EC22E647FB00080392 /* Assets.xcassets */; };
 		EA1390F022E647FB00080392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1390EE22E647FB00080392 /* LaunchScreen.storyboard */; };
+		EA1F8A9122EC1527001B6A13 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1F8A9022EC1527001B6A13 /* CategoryTableViewController.swift */; };
 		EA8749BB22E90D4900955511 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA8749B922E90D4900955511 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA1390E222E647FA00080392 /* 2Doo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Doo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1390E522E647FA00080392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA1390E722E647FA00080392 /* 2DooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = 2DooViewController.swift; path = ../2DooViewController.swift; sourceTree = "<group>"; };
+		EA1390E722E647FA00080392 /* _2DooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = _2DooViewController.swift; path = ../_2DooViewController.swift; sourceTree = "<group>"; };
 		EA1390EA22E647FA00080392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA1390EC22E647FB00080392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1390EF22E647FB00080392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1390F122E647FB00080392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1F8A9022EC1527001B6A13 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		EA8749BA22E90D4900955511 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +87,8 @@
 		EA40A61022E8076900D0C0EA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EA1390E722E647FA00080392 /* 2DooViewController.swift */,
+				EA1F8A9022EC1527001B6A13 /* CategoryTableViewController.swift */,
+				EA1390E722E647FA00080392 /* _2DooViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,9 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1390E822E647FA00080392 /* 2DooViewController.swift in Sources */,
+				EA1390E822E647FA00080392 /* _2DooViewController.swift in Sources */,
 				EA8749BB22E90D4900955511 /* DataModel.xcdatamodeld in Sources */,
 				EA1390E622E647FA00080392 /* AppDelegate.swift in Sources */,
+				EA1F8A9122EC1527001B6A13 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
