@@ -8,9 +8,8 @@
 
 import UIKit
 import RealmSwift
-import SwipeCellKit
 
-class _2DooViewController: UITableViewController {
+class _2DooViewController: SwipeTableViewController {
     
     let realm = try! Realm()
     
@@ -27,6 +26,8 @@ class _2DooViewController: UITableViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        
 
     }
 
@@ -38,8 +39,8 @@ class _2DooViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-               
-        let cell = tableView.dequeueReusableCell(withIdentifier: "2DooItemCell", for: indexPath)
+        
+        let cell = super.tableView(tableView , cellForRowAt: indexPath)
         
         if let item = todoItems?[indexPath.row] {
             
@@ -57,6 +58,7 @@ class _2DooViewController: UITableViewController {
     }
     
     // MARK: TableView Delegate Methods
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         if let item = todoItems?[indexPath.row] {
@@ -128,6 +130,20 @@ class _2DooViewController: UITableViewController {
         todoItems = selectedCategory?.items.sorted(byKeyPath: "title", ascending: false)
 
         tableView.reloadData()
+    }
+    
+    override func updateModel(at indexPath: IndexPath) {
+        if let itemForDeletion = todoItems?[indexPath.row] {
+            
+            do {
+                try self.realm.write {
+                    self.realm.delete(itemForDeletion)
+                }
+            } catch {
+                print("Error deleting item : \(error)")
+            }
+            
+        }
     }
 }
 
