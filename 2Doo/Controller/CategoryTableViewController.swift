@@ -116,6 +116,24 @@ class CategoryTableViewController: SwipeTableViewController {
         tableView.reloadData()
 
     }
+    
+    // MARK: Delete data from swipe
+    
+    override func updateModel(at indexPath: IndexPath) {
+        
+        if let categoryForDeletion = self.categoryArray?[indexPath.row] {
+
+            do {
+                try self.realm.write {
+                    self.realm.delete(categoryForDeletion)
+                }
+            } catch {
+                print("Error deleting category : \(error)")
+            }
+            
+        }
+        
+    }
 
 }
 
