@@ -117,7 +117,7 @@ class CategoryTableViewController: SwipeTableViewController {
 
     }
     
-    // MARK: Delete data from swipe
+    // MARK: Delete data from swipe using super class
     
     override func updateModel(at indexPath: IndexPath) {
         
