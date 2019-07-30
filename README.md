@@ -2,6 +2,7 @@
 
 <p><span style="text-decoration: underline;"><strong>Description</strong></span></p>
 <p>2Doo is a to-do list app with minimalistic design and very intuitive user flow. This is my 6th iOS project where I learnt about persistent local data storage, and experimented with various databases and persistent frameworks, such as UserDefaults, Codable protocol, Core Data, and Realm. In the end, I decided to implement Realm due to its easy-to-use features.&nbsp;</p>
+
 <p><span style="text-decoration: underline;"><strong>Concepts Learnt</strong></span></p>
 <ul>
 <li>Understood the significance and big-picture view of persistent local data storage.</li>
@@ -23,6 +24,7 @@
 <li>Abstracted Category and Item TableViewController using inherited SwipeTableViewController.&nbsp;</li>
 <li>Added attractive color to UI features of 2Doo App.&nbsp;</li>
 </ul>
+
 <p><span style="text-decoration: underline;"><strong>Screenshots of 2Doo</strong></span></p>
 <img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%201.PNG" alt="drawing" width="250"/> <img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%202.PNG" alt="drawing" width="250"/> 
 
