@@ -23,3 +23,5 @@
 <li>Abstracted Category and Item TableViewController using inherited SwipeTableViewController.&nbsp;</li>
 <li>Added attractive color to UI features of 2Doo App.&nbsp;</li>
 </ul>
+
+
