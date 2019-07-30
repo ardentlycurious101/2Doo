@@ -24,4 +24,4 @@
 <li>Added attractive color to UI features of 2Doo App.&nbsp;</li>
 </ul>
 
-![alt text](https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%201.PNG)
+![alt text](https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%201.PNG=250x)
