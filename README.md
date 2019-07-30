@@ -24,4 +24,4 @@
 <li>Added attractive color to UI features of 2Doo App.&nbsp;</li>
 </ul>
 
-<img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%201.PNG" alt="drawing" width="200" border="5" border-color: Black/>
+<img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%201.PNG" alt="drawing" width="200"/>
