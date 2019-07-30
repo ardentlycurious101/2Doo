@@ -24,7 +24,4 @@
 <li>Added attractive color to UI features of 2Doo App.&nbsp;</li>
 </ul>
 
-<img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%201.PNG" alt="drawing" style="float: right;" width="250"/>
-<img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%202.PNG" alt="drawing" style="float: right;" width="250"/>
-<img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%203.PNG" alt="drawing" style="float: right;" width="250"/>
-<img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%204.PNG" alt="drawing" style="float: right;" width="250"/>
+<img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%201.PNG" alt="drawing" width="250"/> <img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%202.PNG" alt="drawing" width="250"/> <img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%203.PNG" alt="drawing" width="250"/> <img src="https://github.com/ardentlycurious101/2Doo/blob/master/2Doo%204.PNG" alt="drawing" width="250"/>
